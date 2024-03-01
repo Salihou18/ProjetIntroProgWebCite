@@ -8,9 +8,7 @@ body{
     margin-bottom: 10px;
     margin-left: 30px;
     padding-top: 10px;
-    padding-right: 30px;
     padding-bottom: 10px;
-    padding-left: 30px;
    /* pour ajouter une image comme arriere plan */
    background-image: url('../images/imagebody.png');
    background-size: cover;
@@ -19,18 +17,55 @@ body{
 header{
     width: 100% ;
     background-color: black;
+    margin-right: 30px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    /* margin-right: 30px; */
+    margin-bottom: 10px;
+    /* margin-left: 30px; */
+    padding-top: 10px;
+    background: linear-gradient(45deg, #ffffff 25%, #f3f3f3 25%, #f3f3f3 50%, #ffffff 50%, #ffffff 75%, #f3f3f3 75%, #f3f3f3);
+    background-size: 80px 80px; /* Taille du motif */
+   
     
 }
+
 footer{
     width: 100% ;
     background-color: black;
-
+    background: linear-gradient(45deg, #ffffff 25%, #f3f3f3 25%, #f3f3f3 50%, #ffffff 50%, #ffffff 75%, #f3f3f3 75%, #f3f3f3);
+    background-size: 80px 80px; /* Taille du motif */
 }
+
 #nom-Restau{
     color: darkgoldenrod;
     text-align: center;
-    margin-top: 35px;
     font-size: 40px;
+    text-transform: uppercase;
+  
+}
+
+main{
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+#hist{
+    color: black;
+   font-size: large;
+   /* margin-right: 50px; */
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: linear-gradient(45deg, #ffffff 25%, #f3f3f3 25%, #f3f3f3 50%, #ffffff 50%, #ffffff 75%, #f3f3f3 75%, #f3f3f3);
+    background-size: 80px 80px; /* Taille du motif */
+
+}
+
+#presentation{
+
+    background-color: aliceblue;
 }
 #liengit{
     color: burlywood;
@@ -51,8 +86,7 @@ a{
     /* centrer les liens du haut de page */
 #hautdepage{
     text-align: center;
-    
-    
+     
 }
    /* centrer les liens du bas de page */
 #basdepage{
@@ -68,16 +102,10 @@ li{
    
 }
 
-h1{
-    color: darkgoldenrod;
-    text-align: center;
-    font-size: 50px;
-
-}
-
 /* pour aligner les images */
 #crevettes, #poissonbraise,#burundi1,#burundi3,#metsdepistache,#koki,#okok,#gombo,#attieke,#beignets{
     display: inline;
+    
 }
 #bhb1,#bhb2,#garba-1,#kossey,#poissonfrit,#poulet-braise-a-la-nigeriane-9,#pouletbraise4,#soya1{
     display: inline;
