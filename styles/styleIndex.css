@@ -10,6 +10,7 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
    /* pour ajouter une image comme arriere plan */
+   /*Jute pour voir*/
    background-image: url('../images/imagebody.png');
    background-size: cover;
    background-position: center;
