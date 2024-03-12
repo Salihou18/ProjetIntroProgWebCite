@@ -8,15 +8,16 @@
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#">A propos</a></li>
-                <li><a href="#">Menu</a></li> 
-                <li><a href="#">LOGO</a></li>  
-                <li><a href="#">page d'animation</a></li>
-                <li><a href="#">Reserver</a></li>
-            </ul>
-        </nav> 
+      <nav>
+        <ul id="hautdepage">
+            <!-- <li><a href="apropos.html">A Propos</a></li> -->
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="inscription.html">Inscription</a></li>
+            <li><a href="reserver.html">Reserver</a></li>
+            <li><a href="contact.html">Contactez-nous</a></li>
+            <li><a href="pagedanimation.html">page d'animation de jeu</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
@@ -30,26 +31,45 @@
         <form action="action_page">
             <div class="container">
               <h1>Register</h1>
-              <p>Please fill in this form to create an account.</p>
+              <p>Veuillez remplir ce formulaire pour creer votre compte.</p>
               <hr>
           
               <label for="email"><b>Email</b></label>
-              <input type="text" placeholder="Enter Email" name="email" id="email" required>
+              <input type="text" placeholder="Entrer votre Email" name="email" id="email" required>
           
               <label for="psw"><b>Password</b></label>
-              <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+              <input type="password" placeholder="Entrer un mot de passe" name="psw" id="psw" required>
           
               <label for="psw-repeat"><b>Repeat Password</b></label>
-              <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+              <input type="password" placeholder="Retapez le mot de passe" name="psw-repeat" id="psw-repeat" required>
               <hr>
           
-              <button type="submit" class="registerbtn">Register</button>
+              <button type="submit" class="registerbtn">Enregistrer</button>
             </div>
           
             <div class="container-signin">
               <p>Already have an account? <a href="#">Sign in</a></p>
             </div>
-          </form>
+        </form>
     </main>
+
+    <footer> 
+      <div>
+          <nav>
+              <ul id="basdepage">
+              
+                  <li><a href="menu.html">Menu</a></li>
+                  <li><a href="inscription.html">Inscription</a></li>
+                  <li><a href="reserver.html">Reserver</a></li>
+                  <li><a href="contact.html">Contactez-nous</a></li>
+                  <li><a href="pagedanimation.html">page d'animation de jeu</a></li>
+
+              </ul>
+          </nav>
+      </div>
+      <div id="liengit">
+          <li><a href="https://github.com/Salihou18/ProjetIntroProgWebCite.git">Lien vers le Github</a></li>
+      </div>
+    </footer>
 </body>
 </html>

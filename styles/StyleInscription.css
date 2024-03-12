@@ -1,10 +1,15 @@
 header{
-    background-color: rgb(216, 62, 6);
-    height: 50px;
-    padding: 20px;
-    font-family: lato, sans-serif;
-    font-weight: 900;
-    margin: 10px 90px
+   
+    width: 100% ;
+    background-color: black;
+    margin-right: 30px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    margin: 10px 90px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    background: linear-gradient(45deg, #ffffff 25%, #f3f3f3 25%, #f3f3f3 50%, #ffffff 50%, #ffffff 75%, #f3f3f3 75%, #f3f3f3);
+    background-size: 80px 80px; /* Taille du motif */
 }
 
 ul{
@@ -19,12 +24,15 @@ li{
     left: 30%;
     margin: 0px 20px 0px 40px;
     padding: 0px 30px ;
+    font-family: "Anta" , sans-serif;
+    font-weight: 800;
 }
+
 a{
     list-style: none;
     text-transform: uppercase;
     text-decoration: none;
-    color: beige;
+    color: orangered;
     padding: 15px;
     display: block;
     float: left;
@@ -56,6 +64,12 @@ a{
   
 .hero-subheading {
     font-size: 24px;
+}
+
+.action_page{
+    padding: 25px 0 25px 0;
+    margin: 10px 90px;
+    background-image: url('../images/imagebody.png');
 }
 
 .container {
@@ -95,13 +109,32 @@ hr {
 .registerbtn:hover {
     opacity:1;
 }
-  
-a{
-    color: yellow;
-}
 
-.signin {
+.container-signin {
     background-color: #f1f1f1;
     text-align: center;
+    justify-content: center;
+    margin: 10px 90px;
+    padding: 5px;
 }
-  
+
+footer{
+    width: 100% ;
+    background-color: black;
+    background: linear-gradient(45deg, #ffffff 25%, #f3f3f3 25%, #f3f3f3 50%, #ffffff 50%, #ffffff 75%, #f3f3f3 75%, #f3f3f3);
+    background-size: 80px 80px; /* Taille du motif */
+}
+
+@media screen and (max-width: 576px) {  /*CSS pour les telephones*/
+    .action_page{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .hero-image>menu>.menu_row>.menu_column {
+        width: 15%;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+}
