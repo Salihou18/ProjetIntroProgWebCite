@@ -28,7 +28,6 @@ header{
     background: linear-gradient(45deg, #ffffff 25%, #f3f3f3 25%, #f3f3f3 50%, #ffffff 50%, #ffffff 75%, #f3f3f3 75%, #f3f3f3);
     background-size: 80px 80px; /* Taille du motif */
    
-    
 }
 
 footer{
@@ -107,4 +106,3 @@ li{
 #bhb1,#bhb2,#garba-1,#kossey,#poissonfrit,#poulet-braise-a-la-nigeriane-9,#pouletbraise4,#soya1{
     display: inline;
 }
-
