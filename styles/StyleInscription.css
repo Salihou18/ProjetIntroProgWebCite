@@ -1,13 +1,10 @@
 header{
-   
     width: 100% ;
     background-color: black;
-    margin-right: 30px;
     padding-bottom: 15px;
     margin-top: 10px;
-    margin: 10px 90px;
     margin-bottom: 10px;
-    padding-top: 10px;
+    padding-top: 20px;
     background: linear-gradient(45deg, #ffffff 25%, #f3f3f3 25%, #f3f3f3 50%, #ffffff 50%, #ffffff 75%, #f3f3f3 75%, #f3f3f3);
     background-size: 80px 80px; /* Taille du motif */
 }
@@ -17,12 +14,14 @@ ul{
     margin: 0;
     padding: 0px 20px;
 }
+#hautdepage{
+    text-align: center;
+     
+}
 
 li{
     display: inline-block;
     text-align: center;
-    left: 30%;
-    margin: 0px 20px 0px 40px;
     padding: 0px 30px ;
     font-family: "Anta" , sans-serif;
     font-weight: 800;
@@ -64,12 +63,6 @@ a{
   
 .hero-subheading {
     font-size: 24px;
-}
-
-.action_page{
-    padding: 25px 0 25px 0;
-    margin: 10px 90px;
-    background-image: url('../images/imagebody.png');
 }
 
 .container {
@@ -123,6 +116,8 @@ footer{
     background-color: black;
     background: linear-gradient(45deg, #ffffff 25%, #f3f3f3 25%, #f3f3f3 50%, #ffffff 50%, #ffffff 75%, #f3f3f3 75%, #f3f3f3);
     background-size: 80px 80px; /* Taille du motif */
+    margin: 30px 5px;
+    text-align: center;
 }
 
 @media screen and (max-width: 576px) {  /*CSS pour les telephones*/
